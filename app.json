@@ -1,15 +1,15 @@
 {
-    "name": "Aquabot",
-    "description": "AQUABOT  - Makes it easy and fun to use Whatsapp.",
-    "logo": "https://i.ibb.co/LhyDWxR/aquabot.jpg",
-    "keywords": ["whatsapp", "userbot", "aqua", "WhatsAsena", "bot", "api", "ai"],
+    "name": "Thinkbot",
+    "description": "Thinkbot  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://i.ibb.co/LhyDWxR/thinkbot.jpg",
+    "keywords": ["whatsapp", "userbot", "think", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/iamMagma/ptsp",
-    "website":   "https://aquabot.ga/",
+    "website":   
     "success_url": "https://sanuw-api.herokuapp.com/",
     "stack": "container",
     "env": {
-        "AQUA_SESSION": {
-            "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන්.",
+        "THink_SESSION": {
+            "description": "දිලා Qr කේතය scan කළ පසුව ලැබෙන කේතයන්.",
             "required": true
         },
         "SUDO": {
@@ -35,7 +35,7 @@
 	 "DEPLOYER": {
 			"description": "ඔබගේ නම හෝ කැමති නමක් යොදන්න",
 			"required": false,
-			"value": "AQUA-USER"
+			"value": "THINK-USER"
 	},   
 	"SEND_READ": {
 			"description": "බොට් මැසේජ් සීන් කරන්න අවශ්‍යනම් true ලෙසද අවශ්‍ය නොවේ නම් false ලෙසද තබන්න.",
@@ -144,7 +144,7 @@
         "ALIVE_LOGO": {
             "description": "Alive message පින්තූරය වෙනස් කිරීම සඳහා ඔබගේ image link පහත සඳහන් කරන්න. (ඔබට අවශ්‍ය පින්තුරය https://imgbb.com වෙබ්සයිට් හි upload කර එම ලින්ක් මෙහි යොදන්න.)",
             "required": true,
-            "value": "https://i.ibb.co/LhyDWxR/aquabot.jpg"
+            "value": "https://ibb.co/zfhkM4T"
         },
 	"BAN_MESSAGE": {
 			"description": "බොට් හරහා කාවහරි ගෲප් එකකින් රිමූ කරද්දි එන්න ඕනෙ මැසේජ් එක",
@@ -184,7 +184,7 @@
        "CAPTION": {
                         "description": "caption එකට දාන්න ඕන මැසේජ් එක ",
                         "required": false,
-                        "value": "© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙰𝚀𝚄𝙰 ²⁰²²"
+                        "value": "© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 DILA ²⁰²²"
        },   
 	    
      "FOOTER": {
